@@ -22,6 +22,7 @@ Galleria.addTheme({
     author: 'Simples',
     css: 'galleria.cover_theme.css',
     defaults: {
+        height: parseInt($('.gallery').css('height')),
         transition: 'slide',
         transition_speed: 500,
         thumbCrop:  'height',
